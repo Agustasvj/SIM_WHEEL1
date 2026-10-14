@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Virtual Sim Wheel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css?v=7">
+</head>
+<body>
+
+  <!-- Setup Screen -->
+  <div id="setup-screen" class="screen active">
+    <div class="bg-glow"></div>
+    <div class="setup-container glass-panel">
+      <h1>Sim Wheel</h1>
+      <p class="subtitle">Turn your phone into a racing wheel</p>
+
+      <div class="status-indicator">
+        <div id="status-dot" class="status-dot"></div>
+        <span id="status-text">Disconnected</span>
+      </div>
+
+      <button id="btn-start" class="btn primary">Start Driving</button>
+    </div>
+  </div>
+
+
+
+  <!-- Driving Screen -->
+  <div id="driving-screen" class="screen">
+    <button id="btn-recenter" class="recenter-btn">⟳ Recenter</button>
+    <button id="btn-tilt" class="tilt-btn">📱 Tilt</button>
+    <button id="btn-exit" class="exit-btn">✕</button>
+    
+    <div class="hud">
+      <div id="hud-steering" class="hud-steering">0°</div>
+      <div id="hud-rotations" class="hud-rotations">0.00 rot</div>
+    </div>
+
+    <div id="drive-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      <!-- Driving elements go here -->
+    </div>
+  </div>
+
+  <script src="/static/app.js?v=10"></script>
+</body>
+</html>

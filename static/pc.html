@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>VForce V 1.0 BETA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/pc.css?v=5">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <div class="logo-icon"></div>
+      <div>
+        <h1>VForce</h1>
+        <span class="subtitle">V 1.0 BETA</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>HOW TO CONNECT</h3>
+      <div class="info-box">
+        <p><strong>Broadcasting on LAN</strong></p>
+        <p>Open this URL on your phone's browser:</p>
+        <div id="connect-url" class="url-display">http://Loading...</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="top-bar">
+      <a href="/" class="btn btn-outline" style="text-decoration: none; display: flex; align-items: center; gap: 8px; margin-right: auto;">🏠 Home</a>
+      <div class="profile-select-wrapper">
+        <label>GAME PROFILES</label>
+        <select id="profile-select"></select>
+      </div>
+      <button id="btn-new-profile" class="btn btn-outline">+ New Profile</button>
+    </div>
+
+    <div class="profile-settings panel">
+      <div class="settings-header">
+        <h2>Profile Settings</h2>
+      </div>
+      <div class="settings-grid">
+        <div class="form-group">
+          <label>Profile Name</label>
+          <input type="text" id="prof-name">
+        </div>
+        <div class="form-group">
+          <label>Max Steering Angle (Degrees)</label>
+          <input type="number" id="prof-steering-angle" value="180">
+          <small>e.g., 180 for F1, 900 for Trucking</small>
+        </div>
+        <div class="form-group">
+          <label>Return to Center Speed</label>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <input type="range" id="prof-return-speed" min="0" max="30" value="5" step="1" style="flex: 1;">
+            <span id="prof-return-val" style="width: 30px; text-align: right;">5</span>
+          </div>
+          <small>0 = No auto-center, 5 = Smooth, 25 = Instant (Drifting)</small>
+        </div>
+        <!-- Steering Mode has been removed -->
+        <div class="form-group">
+          <label>Steering Wheel Style</label>
+          <select id="prof-wheel-style"></select>
+        </div>
+        <div class="form-group">
+          <label>Pedal Style</label>
+          <select id="prof-pedal-style"></select>
+        </div>
+        <div class="form-group">
+          <label>Background Image</label>
+          <select id="prof-bg-style"></select>
+        </div>
+        <div class="form-group">
+          <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+            <input type="checkbox" id="prof-tilt-enabled" style="width: 18px; height: 18px; accent-color: var(--primary); cursor: pointer;">
+            Enable Tilt-to-Steer
+          </label>
+          <small>Phone tilt controls the steering wheel instead of touch</small>
+        </div>
+        <div class="form-group" id="tilt-sensitivity-row" style="display: none;">
+          <label>Tilt Sensitivity</label>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <input type="range" id="prof-tilt-sensitivity" min="0.5" max="3.0" value="1.5" step="0.1" style="flex: 1;">
+            <span id="prof-tilt-sensitivity-val" style="width: 40px; text-align: right;">1.5x</span>
+          </div>
+          <small>0.5x = Very gentle, 1.5x = Default, 3.0x = Very responsive</small>
+          <label style="display: flex; align-items: center; gap: 10px; cursor: pointer; margin-top: 10px;">
+            <input type="checkbox" id="prof-tilt-inverted" style="width: 18px; height: 18px; accent-color: var(--primary); cursor: pointer;">
+            Invert Tilt Direction
+          </label>
+          <small>Swap left/right — tilt left steers right, tilt right steers left</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="editor-section">
+      <div class="layout-editor panel">
+        <div class="settings-header">
+          <h2>Layout Builder</h2>
+          <div class="add-controls">
+            <select id="element-type">
+              <!-- Options are injected dynamically via pc.js based on mode -->
+            </select>
+            <button id="btn-add-element" class="btn btn-primary">Add Element</button>
+          </div>
+        </div>
+        <div class="canvas-container">
+          <div id="editor-canvas"></div>
+        </div>
+      </div>
+
+      <div class="mapping-editor panel">
+        <div class="settings-header">
+          <h2>Input Mapping</h2>
+        </div>
+        <div class="mapping-list" id="mapping-list">
+          <!-- Mappings will be injected here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-bar" style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <button id="btn-save" class="btn btn-primary">Save All Changes</button>
+        <span id="save-status"></span>
+      </div>
+      <div>
+        <button id="btn-quit" class="btn" style="background: rgba(255, 60, 60, 0.8); color: white;">Quit VForce</button>
+      </div>
+      <div style="color: rgba(255,255,255,0.4); font-size: 0.9rem;">
+        by SIERRA.VJ
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/pc.js?v=6"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+websockets
+pywebview
+pyinstaller
+cryptography
+
+# Windows only — virtual gamepad via ViGEmBus driver
+# vgamepad
+
+# Linux only — virtual gamepad via uinput kernel module
+# evdev

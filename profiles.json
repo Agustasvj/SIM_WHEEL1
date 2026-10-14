@@ -1,0 +1,457 @@
+{
+  "active_profile": "prof_1784486943821",
+  "profiles": {
+    "default": {
+      "name": "Asseto_Corsa",
+      "max_steering_angle": 450,
+      "elements": [
+        {
+          "id": "el_1",
+          "type": "pedal-gas",
+          "x": 89.1023,
+          "y": 46.8202,
+          "width": 8.7433,
+          "height": 46.362,
+          "text": "\n      "
+        },
+        {
+          "id": "el_2",
+          "type": "pedal-brake",
+          "x": 76.6068,
+          "y": 51.1755,
+          "width": 8.3842,
+          "height": 37.9187,
+          "text": "\n      "
+        },
+        {
+          "id": "el_3",
+          "type": "steering-wheel",
+          "x": 0,
+          "y": 21.3579,
+          "width": 40.0539,
+          "height": 79.0637,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1784483376196",
+          "type": "button-A",
+          "x": 64.273,
+          "y": 75.4519,
+          "width": 7.307,
+          "height": 11.9481,
+          "text": "A"
+        },
+        {
+          "id": "el_1784483632857",
+          "type": "button-B",
+          "x": 0,
+          "y": 11.3779,
+          "width": 8.9228,
+          "height": 7.98726,
+          "text": "B"
+        },
+        {
+          "id": "el_1784483644131",
+          "type": "button-B",
+          "x": 30.8796,
+          "y": 11.4501,
+          "width": 8.56373,
+          "height": 7.95014,
+          "text": "B"
+        },
+        {
+          "id": "el_1784483679194",
+          "type": "button-A",
+          "x": 64.3896,
+          "y": 53.2159,
+          "width": 7.307,
+          "height": 12.511,
+          "text": "A"
+        },
+        {
+          "id": "el_1784483788997",
+          "type": "button-X",
+          "x": 41.2298,
+          "y": 52.6291,
+          "width": 7.8456,
+          "height": 7.64285,
+          "text": "X"
+        },
+        {
+          "id": "el_1784483799429",
+          "type": "button-Y",
+          "x": 41.589,
+          "y": 63.5568,
+          "width": 7.48654,
+          "height": 7.53036,
+          "text": "Y"
+        },
+        {
+          "id": "el_1784483828738",
+          "type": "button-X",
+          "x": 41.7684,
+          "y": 74.8319,
+          "width": 7.66607,
+          "height": 7.1407,
+          "text": "X"
+        },
+        {
+          "id": "el_1784483872240",
+          "type": "button-Y",
+          "x": 13.4022,
+          "y": 10.7132,
+          "width": 11.7953,
+          "height": 8.63014,
+          "text": "Y"
+        },
+        {
+          "id": "el_1784484173898",
+          "type": "joystick",
+          "x": 70,
+          "y": 5.553,
+          "width": 30,
+          "height": 30,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1784485113741",
+          "type": "button-X",
+          "x": 54.6948,
+          "y": 53.127,
+          "width": 6.76841,
+          "height": 12.6361,
+          "text": "X"
+        },
+        {
+          "id": "el_1784485134162",
+          "type": "button-Y",
+          "x": 54.5153,
+          "y": 75.1874,
+          "width": 7.307,
+          "height": 11.9483,
+          "text": "Y"
+        }
+      ],
+      "mappings": {
+        "el_1": {
+          "output": "RIGHT_TRIGGER"
+        },
+        "el_2": {
+          "output": "LEFT_TRIGGER"
+        },
+        "el_3": {
+          "output": "LEFT_STICK_X"
+        },
+        "el_1784483376196": {
+          "output": "DPAD_DOWN"
+        },
+        "el_1784483632857": {
+          "output": "DPAD_LEFT"
+        },
+        "el_1784483644131": {
+          "output": "DPAD_RIGHT"
+        },
+        "el_1784483679194": {
+          "output": "DPAD_UP"
+        },
+        "el_1784483788997": {
+          "output": "BUTTON_LB"
+        },
+        "el_1784483799429": {
+          "output": "BUTTON_RB"
+        },
+        "el_1784483828738": {
+          "output": "BUTTON_START"
+        },
+        "el_1784483872240": {
+          "output": "BUTTON_BACK"
+        },
+        "el_1784484173898_x": {
+          "output": "RIGHT_STICK_X"
+        },
+        "el_1784484173898_y": {
+          "output": "RIGHT_STICK_Y"
+        },
+        "el_1784485113741": {
+          "output": "BUTTON_X"
+        },
+        "el_1784485134162": {
+          "output": "BUTTON_Y"
+        }
+      },
+      "wheel_style": "scania_wheel.png",
+      "pedal_style": "pedal_plate.png",
+      "bg_style": "",
+      "return_speed": 5,
+      "tilt_enabled": false,
+      "tilt_sensitivity": 3,
+      "tilt_inverted": true
+    },
+    "prof_1784486943821": {
+      "name": "Asseto_Corsa",
+      "max_steering_angle": 470,
+      "elements": [
+        {
+          "id": "el_1784646243211",
+          "type": "pedal-gas",
+          "x": 85.8707,
+          "y": 43.7896,
+          "width": 10.7182,
+          "height": 53.8294,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1784646318641",
+          "type": "pedal-brake",
+          "x": 73.07,
+          "y": 44.4966,
+          "width": 10,
+          "height": 40,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1784646328201",
+          "type": "pedal-clutch",
+          "x": 60.6822,
+          "y": 43.8095,
+          "width": 10,
+          "height": 40,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1784647255229",
+          "type": "button-B",
+          "x": 90,
+          "y": 18.7013,
+          "width": 10,
+          "height": 20,
+          "text": "B"
+        },
+        {
+          "id": "el_1784648254817",
+          "type": "button-A",
+          "x": 76.1221,
+          "y": 19.571,
+          "width": 10,
+          "height": 20,
+          "text": "A"
+        },
+        {
+          "id": "el_1789314824034",
+          "type": "steering-wheel",
+          "x": 2.87253,
+          "y": 25.5651,
+          "width": 36.1042,
+          "height": 74.4349,
+          "text": "\n      "
+        }
+      ],
+      "mappings": {
+        "el_1784646243211": {
+          "output": "RIGHT_TRIGGER"
+        },
+        "el_1784646318641": {
+          "output": "LEFT_TRIGGER"
+        },
+        "el_1784646328201": {
+          "output": "RIGHT_STICK_Y"
+        },
+        "el_1784647255229": {
+          "output": "BUTTON_B"
+        },
+        "el_1784648254817": {
+          "output": "BUTTON_RB"
+        },
+        "el_1789314824034": {
+          "output": "LEFT_STICK_X"
+        }
+      },
+      "wheel_style": "scania_wheel.png",
+      "pedal_style": "pedal_plate.png",
+      "bg_style": "",
+      "return_speed": 8,
+      "steering_mode": "tilt",
+      "tilt_enabled": false,
+      "tilt_sensitivity": 3,
+      "tilt_inverted": true
+    },
+    "prof_1784646140339": {
+      "name": "",
+      "max_steering_angle": 180,
+      "elements": [],
+      "mappings": {},
+      "wheel_style": "",
+      "pedal_style": "",
+      "bg_style": "",
+      "return_speed": 5,
+      "steering_mode": "virtual"
+    },
+    "prof_1785150454990": {
+      "name": "",
+      "max_steering_angle": 180,
+      "elements": [
+        {
+          "id": "el_1785150470869",
+          "type": "steering-wheel",
+          "x": 0,
+          "y": 0,
+          "width": 40.2334,
+          "height": 114.564,
+          "text": "\n      "
+        }
+      ],
+      "mappings": {},
+      "return_speed": 5,
+      "steering_mode": "tilt",
+      "wheel_style": "",
+      "pedal_style": "",
+      "bg_style": ""
+    },
+    "prof_1785156116747": {
+      "name": "",
+      "mode": "flight",
+      "max_steering_angle": 180,
+      "elements": [
+        {
+          "id": "el_1785158361287",
+          "type": "throttle-1",
+          "x": 32.7917,
+          "y": 39.3289,
+          "width": 9.82047,
+          "height": 58.5906,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1785158436947",
+          "type": "rudder",
+          "x": 65.5835,
+          "y": 78.9261,
+          "width": 31.1849,
+          "height": 12.6174,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1785403250998",
+          "type": "yoke",
+          "x": 0,
+          "y": 40,
+          "width": 30.8977,
+          "height": 60.5369,
+          "text": "\n      "
+        }
+      ],
+      "mappings": {
+        "el_1785158361287": {
+          "output": "RIGHT_TRIGGER"
+        },
+        "el_1785158436947": {
+          "output": "LEFT_STICK_X"
+        }
+      },
+      "return_speed": 5,
+      "wheel_style": "",
+      "pedal_style": "",
+      "bg_style": ""
+    },
+    "prof_1785403346909": {
+      "name": "",
+      "mode": "flight",
+      "max_steering_angle": 180,
+      "elements": [
+        {
+          "id": "el_1785403348348",
+          "type": "yoke",
+          "x": 0,
+          "y": 29.0285,
+          "width": 39.6948,
+          "height": 70.9715,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1785403422716",
+          "type": "rudder",
+          "x": 64.3088,
+          "y": 78.5361,
+          "width": 26.3554,
+          "height": 10.9903,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1785403450178",
+          "type": "throttle-1",
+          "x": 77.7918,
+          "y": 7.60874,
+          "width": 10.3591,
+          "height": 36.1644,
+          "text": "\n      "
+        },
+        {
+          "id": "el_1785403470440",
+          "type": "button-A",
+          "x": 31.894,
+          "y": 14.4293,
+          "width": 7.48653,
+          "height": 10.6494,
+          "text": "A"
+        },
+        {
+          "id": "el_1785403471212",
+          "type": "button-A",
+          "x": 0,
+          "y": 14.1154,
+          "width": 7.48653,
+          "height": 10.9091,
+          "text": "A"
+        },
+        {
+          "id": "el_1785403518282",
+          "type": "button-B",
+          "x": 55.0539,
+          "y": 60.0764,
+          "width": 7.48653,
+          "height": 10.631,
+          "text": "B"
+        },
+        {
+          "id": "el_1785403518476",
+          "type": "button-B",
+          "x": 42.6661,
+          "y": 60.2676,
+          "width": 7.48654,
+          "height": 10.4398,
+          "text": "B"
+        }
+      ],
+      "mappings": {
+        "el_1785403348348_x": {
+          "output": "LEFT_STICK_X"
+        },
+        "el_1785403348348_y": {
+          "output": "LEFT_STICK_Y"
+        },
+        "el_1785403422716": {
+          "output": "RIGHT_STICK_X"
+        },
+        "el_1785403470440": {
+          "output": "DPAD_UP"
+        },
+        "el_1785403471212": {
+          "output": "DPAD_DOWN"
+        },
+        "el_1785403450178": {
+          "output": "RIGHT_STICK_Y"
+        },
+        "el_1785403518282": {
+          "output": "DPAD_LEFT"
+        },
+        "el_1785403518476": {
+          "output": "DPAD_RIGHT"
+        }
+      },
+      "return_speed": 5,
+      "wheel_style": "",
+      "pedal_style": "",
+      "bg_style": ""
+    }
+  }
+}

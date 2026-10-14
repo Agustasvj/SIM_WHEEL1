@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+websockets
+evdev
+pywebview
+pyinstaller
+cryptography
+PyQt6
+PyQt6-WebEngine
+qtpy

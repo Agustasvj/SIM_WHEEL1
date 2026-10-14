@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+venv_linux/
+venv_windows/
+.venv/
+env/
+
+# PyInstaller build output (generated automatically - do not commit)
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.pyc
+
+# SSL/TLS certificates and keys (sensitive - keep local only!)
+*.pem
+*.key
+*.crt
+*.p12
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

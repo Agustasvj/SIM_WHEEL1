@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+websockets
+vgamepad
+pywebview
+pyinstaller
+cryptography
